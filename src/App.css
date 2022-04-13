@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+.App {
+  text-align: center;
+  min-width: 370px;
+}
+button{
+  cursor: pointer;
+  border: 1px solid #91C9FF;
+}
+
+button:hover{
+  background-color:#165253;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+/* button>svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+button:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+button:hover>svg {
+  stroke-dashoffset: -480;
+} */

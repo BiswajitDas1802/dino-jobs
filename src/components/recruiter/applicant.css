@@ -1,0 +1,42 @@
+.applicant{
+    width:90%;
+    height:15rem;
+    background:rgb(249,249,249);
+    border-radius:5px;
+    margin:1rem auto;
+}
+
+.item__header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.job__id{
+    font-size: 1.2rem;
+    font-weight:600;
+    margin-left:10px;
+}
+
+.item__title{
+    text-align:left;
+    padding-left: 10px;
+    margin-top: 1rem;
+}
+.dlt__icon{
+    margin-right: 10px;
+    margin-top:5px ;
+}
+
+.item__title>p{
+    font-size:1rem;
+    font-weight: 500;
+    max-height:2rem;
+    margin:0;
+    color: rgb(190,190,190);
+}
+
+.item__title>h3{
+    font-size:1rem;
+    font-weight:600;
+    margin: 0;
+}

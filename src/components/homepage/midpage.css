@@ -1,0 +1,161 @@
+.midBody{
+    width:99.7%;
+    background-color:#F1F1F1;
+    min-height: 770px;
+    min-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    }
+    .midRight{
+    width:50%;
+    
+    }
+    .midLeft{
+        width:665px;;
+        margin-right: 40px;
+        height:560px;
+        display: flex;
+        justify-content:center;
+        
+    }
+    .containBody{
+        width:590px;
+        padding-left: 80px;
+        height:80vh;
+        background-color: #F1F1F1;
+         margin-top:10% ;
+    }
+    .dots{
+        height: 200px;
+        width:250px;
+       
+        /* background-image: url(../svgimgs/dotss.svg);
+        background-size: 10px 10px ;
+        background-origin: content-box; */
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQYV2NkQAKMULYvAwPDZhgHLAYAD6kBBEMDSU4AAAAASUVORK5CYII=");
+        border-radius:5px 0 0 0 ;
+        background-size: 5px 5px ;
+        
+    }
+    .imageBox{
+         margin-top:-27%;
+         margin-left: 15%;
+        height:400px;
+        width:300px;
+        background: url("../../svgimgs/Rectangle-38.png");
+        background-size: cover;
+       
+    }
+    .alertBox{
+        margin-top:-25%;
+        margin-left: 250px;
+        padding:10px;
+        height: 105px;
+        width: 300px;
+        background-color:white;
+    }
+    .alertBox>h4{
+        margin-top:1px;
+        text-align:left;
+    }
+    .alertBox>h3{
+        margin-top:3px;
+        color: #6f6d6d;
+        text-align:left;
+    }
+    .alertBox>p{
+    margin-top: 8px;
+        font-size:13px;
+        color:#b6b4b4 ;
+        text-align:left;
+    }
+    .alertBox>hr{
+       
+        border-top: 1px dashed black;
+        color:#b6b4b4 ;
+       
+    }
+    .full{
+         height:25px;
+         width: 70px;
+         padding: 5px;
+         background-color: #DDF7D5;
+        margin-top:-26px;
+        margin-left: 200px;
+        border-radius:5px;
+    }
+    .full>img{
+        height:18px;
+        width: 60px;
+        border-radius:10px;
+       
+    }
+    
+    .massageIcon{
+        margin-top:-25%;
+        margin-left: 525px;
+        /* background-image: url("../svgimgs/massage.png"); */
+        background-image: url("../../svgimgs/massage.png");
+        background-size: cover;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    .msg{
+       margin-top: 23px;
+        
+        background-image: url("../../svgimgs/Icon\ material-message@2x.png");
+        background-size: cover;
+        height: 32px;
+        width: 32px;
+    }
+    .head{
+        margin-top: -20px;
+    }
+    .boxContainer{
+      margin-top :100px;
+    text-align: left;
+    }
+    .boxContainer>p:nth-child(1){
+        color: coral ;
+      }
+      .boxContainer>p:nth-child(4){
+       font-size: 16px;
+      }
+      .mailBox{
+         width:500px;
+         height:51px;
+          background-color:white ;
+          margin-top:100px;
+          display: flex;
+          justify-content:center;
+          margin-bottom: 100px;
+          
+      }
+      .mailBox>button{
+          height:50px;
+       width: 150px;
+       outline:none;
+       border:none;
+       background-color:coral;
+       border-radius: 4px;
+      }
+      .mailInput{
+        margin-left: 8px;
+        height:40px;
+        width:300px;
+         outline:none;
+         border: none;
+         margin-top: 3px;
+    }
+    .Mimage{
+        width:25px;
+        height:20px;
+        margin-left: 20px;
+        margin-top: 14px;
+    
+    }

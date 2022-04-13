@@ -1,0 +1,45 @@
+.homepageslider{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width: 100%;
+    min-width:900px;
+
+    height:fit-content;
+    /* height: 100vh; */
+    background-color: rgb(241,241,241);
+      margin-top: -3rem;
+      z-index: 1;
+      padding-top: 7rem;
+}
+
+.slider__1{
+    width: 90%;
+    height: 40vh;
+    margin:auto;
+    background: none;
+}
+
+.carousal__img{
+    height:80px;
+    width:17rem;
+}
+
+.carousal__img>img{
+   width:90%;
+   height:100%;
+}
+.slider__1 .slick-prev:before,.slider__1 .slick-next:before{
+    color:#E5936B;
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slider__2{
+    width: 100%;
+    /* height:40vh; */
+}
+

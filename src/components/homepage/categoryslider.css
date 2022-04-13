@@ -1,0 +1,31 @@
+.category{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.categoryitem{
+    width:20%;
+    max-width: 6rem;
+    min-width: 150px;
+    height:10rem;
+    background:white;
+    margin-top:auto;
+    margin-bottom:1rem;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 1px rgb(190, 184, 184) ; 
+}
+
+.category__logo{
+    /* background:url() */
+height:60%;
+width:100%;
+margin-top:1.2rem;
+/* background-color:orange */
+}
+
+.category__name{
+    font-size: 130%;
+    font-weight:600;
+    margin-top:-1rem;
+}

@@ -1,0 +1,96 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&display=swap');
+
+
+.content{
+    /* max-width: 1170px; */
+    min-width:100%;
+    margin: auto;
+}
+
+.footer{
+    width:100%;
+    min-width: 900px;
+    background-color:rgb(22,82,83);
+    padding: 70px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+.col1{
+    width: 22.5%;
+    padding: 0 15px;
+}
+.col1 h3{
+    font-size: 35px;
+    color:#E67E22 ;
+    margin-bottom: 3px;
+}
+.col1 h4{
+    font-size:25px ;
+    color: #ffff;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+}
+.col1 ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+.col1 ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color:#ffff;
+    display: block;
+    transition:all 0.3s ease ;
+}
+.col1 p{
+    font-size: 20px;
+    color: #ffff;
+    padding-left: 25px;
+}
+.col1 ul li a:hover{
+    color: #D0D3D4;
+    padding-left: 10px;
+}
+.Media-links ul a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #ffff;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    padding: 14px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+.fa-facebook{
+    color: 	#4267B2;
+    font-size: 40px;
+    font-weight: 550;
+  
+}
+
+.fa-instagram{
+    color: #8a3ab9;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+
+.Media-links ul a:hover{
+    color: #ffff;
+    background-color: #D0D3D4;
+    padding-right: 5px;
+}

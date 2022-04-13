@@ -1,0 +1,25 @@
+
+
+.homepageland{
+    /* height:100vh; */
+    width:100%;
+    min-width:900px;
+
+    background-color:#165253;
+    /* display: flex; */
+    justify-content:center;
+}
+
+.homepageland>img{
+    width:100%;
+    /* height:100%; */
+}
+
+
+/* @media only screen and (max-width:900px){
+
+    .homepageland>img{
+        min-width:900px;
+    }
+
+} */

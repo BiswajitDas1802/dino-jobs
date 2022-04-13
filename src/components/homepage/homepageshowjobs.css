@@ -1,0 +1,43 @@
+.homepageshowjobs{
+    width:100%;
+    min-width:900px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+   
+}
+
+.showjobs__header{
+    width:100%;
+    height:30%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.header__left{
+    /* width:24%; */
+    /* min-width: 300px; */
+    text-align:left;
+    /* background-color:red; */
+    /* height:8rem; */
+    font-size:250%;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-left:3.1rem;
+}
+
+
+.header__right>p{
+   margin-top:1rem;
+}
+
+
+.showjobs__body{
+    width:100%;
+    /* height:300rem; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    /* background-color:red;
+     */
+}

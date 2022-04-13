@@ -1,0 +1,312 @@
+.navbar{
+    width:100%;
+    min-width: none;
+    display:flex;
+    height:6rem;
+    background:white;
+    /* position:fixed; */
+    /* overflow:hidden; */
+    top: 0;
+    /* z-index: 200; */
+    justify-content:space-between;
+    /* background-color: orange; */
+}
+
+.navbar__left{
+    width:100%;
+    margin-left:5rem;
+    /* background-color:gray; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
+
+
+
+.google__img{
+    width:2rem;
+}
+
+.navbar__center{
+    width:100%;
+    min-width: 300px;
+    height:80%;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+.navbar__right{
+width:100%;
+/* margin-left: 5rem; */
+margin-right: 2rem;
+/* background-color: aqua; */
+display:flex;
+align-items:center;
+justify-content:center;
+/* justify-content:space-between; */
+
+
+}
+
+ .navbar__center>div{
+    border:2px solid #E5936B;
+    background-color:#E5936B;
+    border-radius:50%;
+    height:100%;
+    width:40%;
+}
+
+.navbar__logo{
+    width:100% ;
+    height: 100%;
+    
+   
+}
+.navbar__postajob>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar__reclogin{
+    height:50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* width:50%; */
+    min-width: 200px;
+    border-radius: 10px;
+    background-color:#E5936B;
+    font-size:100%;
+font-weight:600;
+color:white;
+border: none;
+}
+
+.navbar__name{
+    height:50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:50%;
+    border-radius: 5px;
+    background-color:#E5936B;
+    border:none;
+    font-size:1.2rem;
+    font-weight:700;
+    color:white;
+}
+
+
+
+.activejobs__header{
+    /* background-color:#E5936B; */
+    color:white;
+    font-size: 1.2rem;
+    font-weight:500;
+    
+    z-index: 100;
+
+}
+
+.activejobs__header>p{
+    background-color:#E5936B;
+    height:4rem;
+    padding-top: 1rem;
+    border-radius: 10px 10px 0 0;
+    margin:0;
+}
+
+
+.login__aspirant{
+    width:90%;
+    
+    margin-left: 10%;
+    
+}
+
+.login__header{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.login__header>h1,.login__header>p{
+    margin: 0;
+}
+
+.login__header>p{
+    font-size:1rem;
+    font-weight: 500;
+    color:#a19f9f;
+}
+
+.login__input{
+    display:flex;
+    height:10rem;
+
+    flex-direction:column;
+    justify-content:space-around;
+    /* background-color:teal; */
+}
+
+.input__field{
+    width:80%;
+    height:3rem;
+    outline: none;
+    border:1px solid #E5936B;
+}
+
+.login__btn{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    width:82%;
+    height:3rem;
+    background-color:#E5936B;
+    border-radius:5px;
+    text-align: center;
+    border:none;
+    color:white;
+    font-size:1.3rem;
+    font-weight: 700;
+}
+
+.signup__btn{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    width:82%;
+    height:3rem;
+    background-color:white;
+    border: 2px solid #E5936B ;
+    color:#E5936B;
+    border-radius:5px;
+}
+
+.signup__btn>div{
+    font-size: 1.3rem;
+    font-weight:600;
+}
+
+.change__to{
+    display:flex;
+    width:80%;
+    justify-content:space-between;
+    margin:2rem auto;
+}
+
+.to__rec{
+    background-color:#E5936B;
+    width:50%;
+    height:3rem;
+    border: none;
+    border-radius:3px;
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.cancel{
+    border:none;
+    background-color:white;
+    color:#E5936B;
+    width:30%;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+
+/* navbar after login */
+.navbar__login{
+    width:100%;
+    min-width: none;
+    display:flex;
+    height:6rem;
+    background:white;
+    /* position:fixed; */
+    /* overflow:hidden; */
+    top: 0;
+    /* z-index: 200; */
+    justify-content:space-between;
+}
+
+.navbar__dinologin{
+    width:100%;
+    height:100%;
+
+    align-items: left;
+    display: flex;
+    
+}
+.navbar__image{
+    width:10rem;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.navbar__logo2{
+    height:80%;
+    width:90%;
+    margin-left: 6rem;margin-top: 1rem;
+   
+}
+
+
+.navbar__postajob{
+    height:50px;
+    width:5rem;
+    background-color:#E5936B;
+    margin: auto 1rem;
+    border: none;
+    text-align:center;
+    border-radius:5px;
+    color: white;
+    
+
+  
+    font-size:1.2rem;
+    font-weight:700;
+}
+
+.navbar__profile{
+    width:100%;
+    margin-right:-2rem ;
+    /* background-color:blue; */
+    display:flex;
+    justify-content:right;
+    
+    
+}
+
+.navbar__profile>img{
+    border-radius:50%;
+    height:4rem;
+    width:4rem;
+    border:5px solid #E5936B;
+    padding:3px;
+    margin: auto 1rem;
+}
+
+
+
+.logout__btn{
+    width:3rem;
+    height:3rem;
+    margin: auto 1rem;
+}
+
+
+@media screen and (max-width:900px) {
+    
+
+    .navbar__login{
+        width:100vw;
+        min-width:900px;
+        display: flex;
+        justify-content:space-between;
+    }
+}

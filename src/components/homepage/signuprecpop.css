@@ -1,0 +1,47 @@
+.EmployerSingUpBox{
+    width: fit-content;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin:-4rem auto;
+    text-align: left;
+    box-shadow: 2px 0px 5px teal;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EmployerSingUpBox>form>input{
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    border: 1px solid #E5936B;
+    outline:none;
+}
+.EmployerSingUpBox>form *{
+    margin: 10px;
+}
+.EmployerSingUpBox>form button{
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    color: #E5936B;
+    border: 2px solid #E5936B;
+    transition: all 300ms ease-in-out;
+}
+
+.EmployerSingUpBox>form button:hover{
+    background-color: #E5936B;
+    color: white;
+
+}
+.EmployerSingUpBox>form button:disabled{
+    background-color: #E5936B(0, 128, 128, 0.486);
+    border: 2px solid #E5936B;
+    cursor:not-allowed;
+    color: #E5936B;
+}
+.EmployerSingUpBox>form>div>label{
+    font-size: 14px;
+    color: teal;
+}
